@@ -1,0 +1,97 @@
+* {
+  font-family: 'Roboto';
+  color: white;
+  font-weight: lighter;
+  background-color: grey;
+  text-align: center;
+}
+
+a:hover{
+  opacity: 0.75;
+}
+
+header {
+  background-color: grey;
+  position: fixed;
+  font-size: 1rem;
+  width: 100%;
+  z-index: 1;
+  background-color: transparent;
+}
+
+/* This set the Head title */
+.header {
+  background-image: url("../images/coding.jpeg");
+  background-position: center;
+  background-size: cover;
+  justify-content: space-around;
+  height: 320px;
+  padding: 10px 100px;
+  margin: 25px auto;
+}
+
+.code {
+  font-family: monospace;
+  background-color: black;
+}
+
+h1{
+  font-weight:bold;
+  font-size: 2.5rem;
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+  background-color: transparent;
+}
+
+h2{
+  font-weight:lighter;
+  text-align: center;
+  color: white;
+}
+
+table{
+      display: table;
+      text-align: start;
+      margin: 20px auto;
+      border: 1px solid;
+}
+
+
+tr,td{
+  padding: 5px 10px;
+  border: 1px solid;
+}
+
+
+
+.nav_title{
+  font-size: 2rem;
+}
+
+/* This formats the nav text menu at the top*/
+nav span {
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  margin: 20px 0px;
+  padding: 0 0.5%;
+  color: white;
+  background-color: transparent;
+}
+
+nav {
+  display: inline;
+  width: 180px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: transparent;
+}
+
+nav a {
+  display: inline;
+  color: white;
+  font-size: 1.5rem;
+
+}
