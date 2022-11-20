@@ -21,7 +21,8 @@ header {
 
 /* This set the Head title */
 .header {
-  background-image: url("/images/coding.jpeg");
+  background-image: url("coding.jpeg");
+  /*background-image: url("/images/coding.jpeg");*/
   background-position: center;
   background-size: cover;
   justify-content: space-around;
