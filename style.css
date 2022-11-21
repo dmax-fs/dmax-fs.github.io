@@ -10,25 +10,26 @@ a:hover{
   opacity: 0.75;
 }
 
+/*space behind the top nav menu*/
 header {
   background-color: grey;
   position: fixed;
   font-size: 1rem;
   width: 100%;
+  margin: 2px auto;
   z-index: 1;
   background-color: transparent;
 }
 
-/* This set the Head title */
+/* This set the Head title/background image */
 .header {
-  /*background-image: url("coding.jpeg");*/
-  background-image: url("images/coding.jpeg");
+  background-image: url("../images/coding.jpeg");
   background-position: center;
   background-size: cover;
   justify-content: space-around;
   height: 320px;
-  padding: 10px 100px;
-  margin: 25px auto;
+  padding: 10px 275px;
+  margin: 5px auto;
 }
 
 .code {
@@ -37,12 +38,15 @@ header {
 }
 
 h1{
+  font-family: monospace;
   font-weight:bold;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   text-align: center;
   letter-spacing: 2px;
   color: white;
-  background-color: transparent;
+  margin: 115px 50px;
+  padding: 3px 100px;
+  /*background-color: transparent;*/
 }
 
 h2{
@@ -93,6 +97,7 @@ nav {
 nav a {
   display: inline;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 
 }
+
