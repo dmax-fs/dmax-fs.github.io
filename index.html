@@ -14,20 +14,50 @@
 <body>
   <header>
   <nav>
-    <span class="nav_title"><a href="#">MENU</a></span>
-    <span class="nav_title"><a href="#">FORMAT TAGS</a></span>
-    <span class="nav_title"><a href="#">CSS TAGS</a></span>
-    <span class="nav_title"><a href="#location">LOCATION</a></span>
+    <span class="nav_title"><a href="#structure">STRUCTURE</a></span>
+    <span class="nav_title"><a href="#tables">TABLES</a></span>
+    <span class="nav_title"><a href="#forms">FORMS</a></span>
+    <span class="nav_title"><a href="#semantics">SEMANTICS</a></span>
     <span class="nav_title"><a href="#contact">CONTACT</a></span>
   </nav>
+
+<!--
+  <div>
+  <span id="home"><a href=#top>Top of Page</a></span>
+  </div>
+-->
+  <span class="home"><a href=#top>TOP OF PAGE</a></span>
+
+
 </header>
 
   <div class="header">
     <h1> HTML & CSS tags cheatsheet</h1>
     </div>
 
+<!-- Elements & Structure -->
+    <div class="item" id="structure">
+      <h2>Elements & Structure</h2>
+      <table>
+            <thead>
+              <th>Tag</th>
+              <th>Name</th>
+              <th>Description</th>
+              </thead>
+              <tbody>
+                <tr><td><span class="code">&lt;table&gt;</span></td><td>Table</td><td>Wrapper element for all HTML tables.</td></tr>
+                <tr><td><span class="code">&lt;thead&gt;</span></td><td>Table Head</td><td>The set of rows defining the column headers in a table.</td></tr>
+                <tr><td><span class="code">&lt;tbody&gt;</span></td><td>Table Body</td><td>The set of rows containing actual table data.</td></tr>
+                <tr><td><span class="code">&lt;tr&gt;</span></td><td>Table Row</td><td>Table Row container.</td></tr>
+                <tr><td><span class="code">&lt;td&gt;</span></td><td>Table Data</td><td>Table Data container.</td></tr>
+                <tr><td><span class="code">&lt;tfoot&gt;</span></td><td>Table Footer</td><td>The set of rows defining the footer in a table.</td></tr>
+                </tbody>
+        </table>
+    </div>
+    <br>
+
 <!-- Tables -->
-  <div class="item">
+  <div class="item" id="tables">
     <h2>Table Tags</h2>
         <table>
               <thead>
@@ -46,9 +76,10 @@
           </table>
       </div>
       <br>
-<!-- something else -->
-    <div class="item">
-      <h2>Another Heading</h2>
+
+<!-- Forms -->
+    <div class="item" id="forms">
+      <h2>Forms</h2>
       <table>
             <thead>
               <th>Tag</th>
@@ -66,9 +97,10 @@
         </table>
     </div>
     <br>
+
 <!-- something else -->
-<div class="item">
-  <h2> Another Another Heading</h2>
+<div class="item" id="semantics">
+  <h2>Semantics</h2>
   <table>
         <thead>
           <th>Tag</th>
@@ -98,3 +130,4 @@
   <p>Take me back to the top of the page</p><a href="#top">Click Here</a>
   </footer>
 </html>
+
