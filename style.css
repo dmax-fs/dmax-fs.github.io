@@ -13,13 +13,18 @@ a:hover{
 
 /*space behind the top nav menu*/
 header {
-  /*background-color: grey;*/
+  background-color: grey;
   position: fixed;
   font-size: 1rem;
   width: 100%;
-  margin: 2px auto;
+  /*margin: 2px auto;*/
+  padding: 15px 5px;
   z-index: 1;
-  background-color: transparent;
+  /*background-color: transparent;*/
+}
+
+body{
+  margin: 0px;
 }
 
 /* This set the Head title/background image */
@@ -30,7 +35,6 @@ header {
   justify-content: space-around;
   height: 320px;
   padding: 10px 50px;
-  margin: 5px auto;
 }
 
 .code {
@@ -55,6 +59,7 @@ h2{
   text-align: center;
   color: skyblue;
 }
+
 /*
 table{
       display: table;
@@ -73,13 +78,9 @@ table{
 
 
 tr,td{
-  padding: 5px 10px;
+  padding: 2px 10px;
   border: 1px solid;
   text-align: left;
-}
-
-.nav_title{
-  font-size: 2rem;
 }
 
 .home{
@@ -90,11 +91,11 @@ tr,td{
 
 /* This formats the nav text menu at the top*/
 nav span {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 100;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   word-spacing: 2px;
-  margin: 20px 0px;
+  /*margin: 20px 0px;*/
   padding: 0 0.5%;
   color: white;
   background-color: transparent;
@@ -103,8 +104,8 @@ nav span {
 nav {
   display: inline;
   width: 180px;
-  margin: 0 auto;
-  padding: 10px;
+  margin: 0;
+  /*padding: 10px;*/
   background-color: transparent;
 }
 
