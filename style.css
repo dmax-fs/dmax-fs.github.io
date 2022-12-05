@@ -9,6 +9,7 @@
 
 a:hover{
   opacity: 0.75;
+  cursor: pointer;
 }
 
 /*space behind the top nav menu*/
